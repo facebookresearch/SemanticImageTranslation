@@ -1,0 +1,19 @@
+output: 'default'
+domain: test
+nsteps: 160
+editer.__class__: src.flexit_editer.FlexitEditer
+editer.latent_space: vqgan
+editer.img_size: 288
+editer.names:
+        - ViT-B/32
+        - RN50x4
+        - RN50
+        - ViT-B/16
+        - RN50x16
+editer.n_augment: 1
+editer.znorm_loss: l1l2
+editer.znorm_weight: 0.05
+editer.lr: 0.05
+editer.lpips_weight: 0.15
+editer.source_coef: 0.4
+editer.im0_coef: 0.2

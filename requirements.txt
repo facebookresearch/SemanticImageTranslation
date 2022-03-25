@@ -1,0 +1,13 @@
+torch>=1.9.0
+torchvision
+pandas
+numpy>=1.22
+Pillow
+lpips
+submitit
+omegaconf
+einops
+ftfy
+regex
+tqdm
+git+https://github.com/openai/CLIP.git
